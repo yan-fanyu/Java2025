@@ -1,9 +1,154 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="RunManager">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="25c346fb-fffb-455a-84d2-22a1d7d43d64" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JDK8/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JDK8/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JDK8/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JDK8/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JDK8/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JDK8/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JDK8/JDK8新特性.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JDK8/src/main/java/org/opencode/Add.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JDK8/src/main/java/org/opencode/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JDK8/src/main/java/org/opencode/TestDefaultFunction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JDK8/src/main/java/org/opencode/TestLambda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lock/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lock/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lock/src/main/java/org/example/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lock/src/main/java/org/example/LockTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lock/src/main/java/org/example/TestLockCAS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lock/锁.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Maven/src/main/java/org/opencode/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JDK8/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/JDK8/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JDK8/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/JDK8/src/main/java/org/opencode/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JDK8/target/classes/org/example/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Maven/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lock/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 4
+}]]></component>
+  <component name="ProjectId" id="2qeuXCw6Tsdqhpp0wTAxRLTKd3m" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.LockTest.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.TestLambda.executor": "Run",
+    "Application.TestLockCAS.executor": "Run",
+    "Application.org.example.Main.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "jdk.selected.JAVA_MODULE": "azul-20",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "F:/MyProjects/Java2025/kafka",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.27414903",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\MyProjects\Java2025" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.TestLockCAS">
+    <configuration name="LockTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.LockTest" />
+      <module name="Lock" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
+      <option name="MAIN_CLASS_NAME" value="org.opencode.Main" />
       <module name="JDK8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.opencode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestLambda" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.opencode.TestLambda" />
+      <module name="JDK8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.opencode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestLockCAS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.TestLockCAS" />
+      <module name="Lock" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="org.example.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
+      <module name="Lock" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.*" />
@@ -16,8 +161,30 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestLockCAS" />
+        <item itemvalue="Application.LockTest" />
+        <item itemvalue="Application.org.example.Main" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.TestLambda" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="25c346fb-fffb-455a-84d2-22a1d7d43d64" name="Changes" comment="" />
+      <created>1735035399576</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1735035399576</updated>
+      <workItem from="1735035400664" duration="7222000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

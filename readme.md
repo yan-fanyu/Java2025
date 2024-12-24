@@ -107,3 +107,8 @@ https://github.com/yan-fanyu/Redis
 **Kafka** \
 视频 https://www.bilibili.com/video/BV1h94y1Q7Xg \
 源码 https://github.com/yan-fanyu/Kafka
+
+
+**Java8** \
+视频：https://www.bilibili.com/video/BV1M54y157nz
+

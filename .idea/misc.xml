@@ -6,6 +6,7 @@
       <list>
         <option value="$PROJECT_DIR$/JDK8/pom.xml" />
         <option value="$PROJECT_DIR$/Maven/pom.xml" />
+        <option value="$PROJECT_DIR$/Lock/pom.xml" />
       </list>
     </option>
   </component>
