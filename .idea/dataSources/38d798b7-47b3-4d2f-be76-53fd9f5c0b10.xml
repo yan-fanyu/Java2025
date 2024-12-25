@@ -1008,7 +1008,7 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
     <schema id="291" parent="1" name="nnsql">
-      <LastIntrospectionLocalTimestamp>2024-12-25.12:48:43</LastIntrospectionLocalTimestamp>
+      <LastIntrospectionLocalTimestamp>2024-12-25.14:12:55</LastIntrospectionLocalTimestamp>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
     <schema id="292" parent="1" name="performance_schema">
@@ -1053,21 +1053,83 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <Engine>MyISAM</Engine>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </table>
-    <column id="303" parent="301" name="name">
+    <table id="303" parent="291" name="user">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_0900_ai_ci</CollationName>
+    </table>
+    <table id="304" parent="291" name="user2">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_0900_ai_ci</CollationName>
+    </table>
+    <column id="305" parent="301" name="name">
       <DasType>varchar(10)|0s</DasType>
       <Position>1</Position>
     </column>
-    <column id="304" parent="301" name="money">
+    <column id="306" parent="301" name="money">
       <DasType>int|0s</DasType>
       <Position>2</Position>
     </column>
-    <column id="305" parent="302" name="id">
+    <column id="307" parent="302" name="id">
       <DasType>int|0s</DasType>
       <Position>1</Position>
     </column>
-    <column id="306" parent="302" name="name">
+    <column id="308" parent="302" name="name">
       <DasType>varchar(10)|0s</DasType>
       <Position>2</Position>
     </column>
+    <column id="309" parent="303" name="id">
+      <DasType>int|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="310" parent="303" name="name">
+      <DasType>varchar(10)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="311" parent="303" name="gender">
+      <DasType>char(1)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <index id="312" parent="303" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="313" parent="303" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="314" parent="304" name="id">
+      <DasType>int|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="315" parent="304" name="name">
+      <DasType>varchar(10)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="316" parent="304" name="gender">
+      <DasType>char(1)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <index id="317" parent="304" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="318" parent="304" name="id">
+      <ColNames>id</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="319" parent="304" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <key id="320" parent="304" name="id">
+      <UnderlyingIndexName>id</UnderlyingIndexName>
+    </key>
   </database-model>
 </dataSource>
