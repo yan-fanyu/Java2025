@@ -5,34 +5,47 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="25c346fb-fffb-455a-84d2-22a1d7d43d64" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JDK8/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JDK8/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JDK8/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JDK8/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JDK8/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JDK8/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JDK8/JDK8新特性.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JDK8/src/main/java/org/opencode/Add.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JDK8/src/main/java/org/opencode/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JDK8/src/main/java/org/opencode/TestDefaultFunction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JDK8/src/main/java/org/opencode/TestLambda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lock/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lock/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lock/src/main/java/org/example/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lock/src/main/java/org/example/LockTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lock/src/main/java/org/example/TestLockCAS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lock/锁.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Maven/src/main/java/org/opencode/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/JavaWeb_Web_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaWeb/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaWeb/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaWeb/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaWeb/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaWeb/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaWeb/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaWeb/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaWeb/src/main/java/org/example/javaweb/JavaWebApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaWeb/src/main/java/org/example/javaweb/controller/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaWeb/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaWeb/src/main/webapp/out.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaWeb/src/main/webapp/page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaWeb/src/main/webapp/page.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaWeb/四大作用域和九大内置对象.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lock/img_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lock/img_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lock/img_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lock/img_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lock/img_6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SQL/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SQL/img_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SQL/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SQL/sql.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SQL/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Web/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Web/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Web/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Web/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Web/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Web/src/main/java/org/example/web/HelloServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Web/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Web/src/main/webapp/index.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JDK8/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/JDK8/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JDK8/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/JDK8/src/main/java/org/opencode/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JDK8/target/classes/org/example/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Maven/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lock/src/main/java/org/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JDK8/target/classes/org/opencode/TestDefaultFunction.class" beforeDir="false" afterPath="$PROJECT_DIR$/JDK8/target/classes/org/opencode/TestDefaultFunction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lock/锁.md" beforeDir="false" afterPath="$PROJECT_DIR$/Lock/锁.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +55,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="Class" />
       </list>
     </option>
@@ -52,9 +66,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2qeuXCw6Tsdqhpp0wTAxRLTKd3m" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -70,30 +84,52 @@
     "Application.Main.executor": "Run",
     "Application.TestLambda.executor": "Run",
     "Application.TestLockCAS.executor": "Run",
+    "Application.org.example.Main (1).executor": "Run",
     "Application.org.example.Main.executor": "Run",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.JavaWebApplication.executor": "Run",
     "jdk.selected.JAVA_MODULE": "azul-20",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "F:/MyProjects/Java2025/kafka",
+    "last_opened_file_path": "F:/MyProjects/Java2025",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
+    "project.structure.last.edited": "Artifacts",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.27414903",
+    "settings.editor.selected.configurable": "project.propVCSSupport.Mappings",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.example.javaweb" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\MyProjects\Java2025" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\MyProjects\Java2025\JavaWeb\src\main\webapp" />
+      <recent name="F:\MyProjects\Java2025\JavaWeb\src\main" />
+      <recent name="F:\MyProjects\Java2025\JavaWeb\src" />
+      <recent name="F:\MyProjects\Java2025\JavaWeb" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.TestLockCAS">
+  <component name="RunManager" selected="Application.org.example.Main (1)">
     <configuration name="LockTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.LockTest" />
       <module name="Lock" />
@@ -107,35 +143,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.opencode.Main" />
-      <module name="JDK8" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.opencode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestLambda" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.opencode.TestLambda" />
-      <module name="JDK8" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.opencode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TestLockCAS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.TestLockCAS" />
       <module name="Lock" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="org.example.Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.*" />
@@ -159,13 +181,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="JavaWebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="JavaWeb" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.javaweb.JavaWebApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.javaweb.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.LockTest" />
+      <item itemvalue="Application.org.example.Main" />
+      <item itemvalue="Application.org.example.Main (1)" />
+      <item itemvalue="Application.TestLockCAS" />
+      <item itemvalue="Spring Boot.JavaWebApplication" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestLockCAS" />
+        <item itemvalue="Application.org.example.Main (1)" />
+        <item itemvalue="Spring Boot.JavaWebApplication" />
         <item itemvalue="Application.LockTest" />
+        <item itemvalue="Application.TestLockCAS" />
         <item itemvalue="Application.org.example.Main" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.TestLambda" />
       </list>
     </recent_temporary>
   </component>
@@ -177,7 +219,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1735035399576</updated>
-      <workItem from="1735035400664" duration="7222000" />
+      <workItem from="1735035400664" duration="10203000" />
+      <workItem from="1735120692793" duration="9079000" />
     </task>
     <servers />
   </component>

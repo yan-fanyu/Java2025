@@ -7,7 +7,16 @@
         <option value="$PROJECT_DIR$/JDK8/pom.xml" />
         <option value="$PROJECT_DIR$/Maven/pom.xml" />
         <option value="$PROJECT_DIR$/Lock/pom.xml" />
+        <option value="$PROJECT_DIR$/Web/pom.xml" />
+        <option value="$PROJECT_DIR$/JavaWeb/pom.xml" />
+        <option value="$PROJECT_DIR$/Java/pom.xml" />
+        <option value="$PROJECT_DIR$/SQL/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/Web/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_20" default="true" project-jdk-name="azul-20" project-jdk-type="JavaSDK">
