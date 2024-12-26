@@ -5,25 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="25c346fb-fffb-455a-84d2-22a1d7d43d64" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/SQL/img_10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SQL/img_11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SQL/img_12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SQL/img_13.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SQL/img_14.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SQL/img_15.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SQL/img_16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SQL/img_17.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SQL/img_18.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SQL/img_19.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SQL/img_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SQL/img_20.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SQL/img_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SQL/img_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SQL/img_5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SQL/img_6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SQL/img_7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SQL/img_8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SQL/img_9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/markdown.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SQL/img_21.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SQL/img_22.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/38d798b7-47b3-4d2f-be76-53fd9f5c0b10.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/38d798b7-47b3-4d2f-be76-53fd9f5c0b10.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SQL/sql.md" beforeDir="false" afterPath="$PROJECT_DIR$/SQL/sql.md" afterDir="false" />
@@ -58,44 +43,44 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Application.LockTest.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.TestLambda.executor": "Run",
-    "Application.TestLockCAS.executor": "Run",
-    "Application.org.example.Main (1).executor": "Run",
-    "Application.org.example.Main.executor": "Run",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Spring Boot.JavaWebApplication.executor": "Run",
-    "jdk.selected.JAVA_MODULE": "azul-20",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "F:/MyProjects/Java2025",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Artifacts",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.27414903",
-    "settings.editor.selected.configurable": "project.propVCSSupport.Mappings",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.LockTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestLambda.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestLockCAS.executor&quot;: &quot;Run&quot;,
+    &quot;Application.org.example.Main (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.org.example.Main.executor&quot;: &quot;Run&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Spring Boot.JavaWebApplication.executor&quot;: &quot;Run&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;azul-20&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/MyProjects/Java2025&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.27414903&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.Mappings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="org.example.javaweb" />
@@ -201,7 +186,9 @@
       <option name="presentableId" value="Default" />
       <updated>1735035399576</updated>
       <workItem from="1735035400664" duration="10203000" />
-      <workItem from="1735120692793" duration="15495000" />
+      <workItem from="1735120692793" duration="16967000" />
+      <workItem from="1735187541299" duration="1664000" />
+      <workItem from="1735219603484" duration="3617000" />
     </task>
     <servers />
   </component>
