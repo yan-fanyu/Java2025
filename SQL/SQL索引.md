@@ -250,14 +250,21 @@ explain select id, name from student where id = '1024040908';
 explain select id, name, age, entrance from student where id = '1024040908';
 # 使用 索引 idx = (id, name, age)
 explain select name from student where id = '1024040908';
-# 使用 索引 idx = (id, name, age)
-explain select age from student where id = '1024040908';
-# show index from student;
+# 使用 索引 idx = (name, age)
+explain select id, name, age from student where name = 'Jack';
+show index from student;
+
 
 # 如果 select 的 东西 没有被 索引 覆盖 则必须再次回表查询
 explain select entrance from student where id = '1024040908';
 
 ```
+**注意：下面的SQL语句不需要回表查询; 因为通过联合索引 (name, age) 来检索，且叶子节点存储的数据是主键id 即一次二次索引检索就可获取到了所需要
+的三个字段   id name age**
+```mysql
+select id, name, age from student where name = 'Jack'
+```
+
 - 索引覆盖 \
 ![img_24.png](img_24.png)
 - 索引未覆盖\
@@ -281,7 +288,27 @@ create index idx_studetn_name_pass on student (name, pass);
 ```
 
 ### 前缀索引
+- 目的：为字符串字段建立索引的要考虑，因为如果字段非常大，则会导致索引很大，导致大量磁盘IO的问题，查询效率降低，
+解决方法，选取字符串前 n 个字符作为 前缀，使用前缀建立索引。
+```mysql
+# 先计算所有字符串字段的选择率 判断使用那个字段
+select count(distinct 字段名) / count(*) from 表名;
+# 再计算该字段的选择率 确定使用前缀的长度
+select count(distinct substring(字段名, 起点, 长度)) / count(*) from 表名;
 
+# 建立前缀索引
+create index 索引名 on 表名(字段名(取几个字符作为前缀n)) 
+```
+
+### 单列索引和联合索引
+推荐使用联合索引，避免使用单列索引
+
+### 索引设计原则
+![img_28.png](img_28.png)
+
+### 索引总结
+![img_29.png](img_29.png)
+![img_30.png](img_30.png)
 
 ## SQL优化
 
