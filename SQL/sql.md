@@ -116,7 +116,6 @@ create index 姓名 on user(name);
 create unique index 手机号 on user(name);
 # 为profession、age、status创建联合索引。
 create index 联合索引 on user(id, name, gender);
-
 ```
 
 
@@ -130,7 +129,6 @@ show global status like 'Com_______';
 ### 慢查询日志
 ```mysql
 explain select * from user;
-
 ```
 ### 索引的使用
 
@@ -166,7 +164,6 @@ select * from user where id = 100008 and gender='男';
 # mysql 对于 字符串类型的字段 index 从 1 开始计数
 select * from student where substring(name, 3, 2) = 'ck';
 explain select * from student where substring(name, 3, 2) = 'ck';
-
 ```
 - 字符串类型的索引一定要加单引号，不加单引号虽然也能查询出来，但是不会走索引，效率低下
 ```mysql
@@ -221,7 +218,6 @@ explain select * from student where id is not null;
 # 不使用索引
 explain select * from student where id is null;
 create index idx_name_age on student (name, age);
-
 ```
 ### 索引提示 手动选择要使用的索引
 ```mysql
@@ -242,6 +238,49 @@ explain select * from student force index (idx_name) where name = 'Jack';
 ![img_22.png](img_22.png)
 
 
+### 覆盖索引
+```mysql
+# 如果 select 的 东西 被 索引 覆盖到了 则 不用回表查询
+# extra 信息 若出现 using index condtion 则 -> 使用了索引 但是需要回表查询
+# 使用 索引 idx = (id, name, age)
+explain select id from student where id = '1024040908';
+# 使用 索引 idx = (id, name, age)
+explain select id, name from student where id = '1024040908';
+# 使用 索引 idx = (id, name, age)
+explain select id, name, age, entrance from student where id = '1024040908';
+# 使用 索引 idx = (id, name, age)
+explain select name from student where id = '1024040908';
+# 使用 索引 idx = (id, name, age)
+explain select age from student where id = '1024040908';
+# show index from student;
+
+# 如果 select 的 东西 没有被 索引 覆盖 则必须再次回表查询
+explain select entrance from student where id = '1024040908';
+
+```
+- 索引覆盖 \
+![img_24.png](img_24.png)
+- 索引未覆盖\
+![img_23.png](img_23.png)
+### 概念
+- 聚集索引 = 主键索引
+- 二级索引 = 辅助索引 
+
+**如果使用二级索引，则B+树叶子结点存储的是主键索引，如果select选择的字段没有全部被该 二级索引所覆盖，则会根据查到的聚集索引的值，进行回表查询
+查找所有的字段，然后返回所需要的字段**
+
+**若select的所有字段都被 二级索引 所覆盖， 则不用执行回表查询，直接返回即可**
+下图展示了没有覆盖索引，使用回表查询
+![img_25.png](img_25.png)
+
+#### 覆盖是索引思考题
+该怎么建立索引
+![img_26.png](img_26.png)
+```mysql
+create index idx_studetn_name_pass on student (name, pass);
+```
+
+### 前缀索引
 
 
 ## SQL优化
