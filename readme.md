@@ -2,7 +2,7 @@
 ## 01 操作系统进阶
 - [X] 网络原理、网络配置、VMWare 虚拟机的使用
 - [X] Linux 安装和使用、Linux 常用命令
-- [X] Linux 常用软件安装、JDK、Tomcat
+- [X] Linux 常用软件安装、JDK、Tomcat 
 - [ ] Nginx 负责均衡
 
 ## 02 数据库
