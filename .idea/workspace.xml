@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="25c346fb-fffb-455a-84d2-22a1d7d43d64" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/SQL/img_48.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SQL/img_49.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SQL/img_50.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SQL/存储过程.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SQL/img_51.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SQL/触发器.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/38d798b7-47b3-4d2f-be76-53fd9f5c0b10.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/38d798b7-47b3-4d2f-be76-53fd9f5c0b10.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/38d798b7-47b3-4d2f-be76-53fd9f5c0b10/storage_v2/_src_/schema/student.O4L-jw.zip" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/38d798b7-47b3-4d2f-be76-53fd9f5c0b10/storage_v2/_src_/schema/student.O4L-jw.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -195,7 +192,7 @@
       <workItem from="1735629717475" duration="3283000" />
       <workItem from="1736068819244" duration="1933000" />
       <workItem from="1736147198362" duration="6376000" />
-      <workItem from="1736154566787" duration="8522000" />
+      <workItem from="1736154566787" duration="10274000" />
     </task>
     <servers />
   </component>
