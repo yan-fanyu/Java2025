@@ -128,16 +128,47 @@ select id from student order by id limit 1000000, 10;
 
 # 将上面SQL的返回结果看成一张表
 select s.* from student s, (select id from student order by id limit 10000000, 10) a where s.id = a.id;
+```
+![img_39.png](img_39.png)
+# count 聚合函数的优化
+- 使用内存数据库进行计数 Redis
+- 推荐使用 count(*) 和 count(1) 因为不需要取数据
+```mysql
+# 查询 2024级 通信学院的+学硕数量
+select count(*) from student where department = 'tel' and id like '__24______';
+select * from student where department = 'tel' and id like '__24______';
+update student set sex = null where id = '1024040901';
 
+# count 的几种操作
+select count(*) from student;
+select count(id) from student;
+select count(name) from student;
+# count(*) 不统计 null 值
+select count(sex) from student;
+select count(age) from student;
+select count(department) from student;
 
+# count() 里面的数字随便
+select count(1) from student;
+select count(0) from student;
+select count(-1) from student;
+```
+![img_40.png](img_40.png)
+# update 优化
+- 即where 后面必须跟 索引，因为使用索引进行筛选只会产生行锁，而where 不根据索引进行更新，则会升级为表锁，整张表在 commit之前，均不可使用。
+- 有索引就是行锁 没有索引就是表锁
+```mysql
+begin;
+update student set name = 'YanYan' where id = '1024040908';
+commit;
+select * from student where id = '1024040908';
 ```
 
-# count
+![img_41.png](img_41.png)
 
-# update
-
-
-
+# 总结
+- 基本上都是对索引进行优化
+![img_42.png](img_42.png)
 
 
 
