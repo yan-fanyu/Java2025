@@ -5,14 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="25c346fb-fffb-455a-84d2-22a1d7d43d64" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/SQL/img_31.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SQL/img_32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SQL/img_33.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SQL/img_34.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SQL/img_35.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SQL/img_36.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SQL/img_37.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SQL/img_38.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/38d798b7-47b3-4d2f-be76-53fd9f5c0b10.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/38d798b7-47b3-4d2f-be76-53fd9f5c0b10.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SQL/SQL优化.md" beforeDir="false" afterPath="$PROJECT_DIR$/SQL/SQL优化.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -193,7 +194,8 @@
       <workItem from="1735373453544" duration="6737000" />
       <workItem from="1735436514497" duration="603000" />
       <workItem from="1735629717475" duration="3283000" />
-      <workItem from="1736068819244" duration="1777000" />
+      <workItem from="1736068819244" duration="1933000" />
+      <workItem from="1736147198362" duration="4403000" />
     </task>
     <servers />
   </component>

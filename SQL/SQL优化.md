@@ -36,9 +36,101 @@ load data local infile '/root/sql.log' into table 'user' fields terminated by ',
 - 业务操作的时候，避免对主键的修改
 
 
-# group by
 
-# limit
+![img_36.png](img_36.png)
+- 尽可能使用索引进行 order by操作
+- order by 索引 不用重新排序
+- order by 非索引 需要重新排序 耗时
+```mysql
+# 表中存在 id 的聚合索引 和 name_age 的 联合索引
+# 下面的 SQL 语句 不使用了索引 而是 filesort
+explain select * from student order by age;
+explain select age, name from student order by id;
+
+show index from student;
+
+# 表中存在 id 的聚合索引 和 name_age 的 联合索引
+# 下面的 SQL 语句 使用了索引 而不是 filesort
+explain select name, age from student order by name;
+explain select id, name, age from student order by name;
+explain select id, name, age from student order by name;
+# 使用了 索引 + 反向索引
+explain select id, name, age from student order by name desc;
+explain select id, name, age from student order by name asc, age desc;
+# 两种都使用了
+explain select id, name, age from student order by age, name;
+```
+- 创建自定义排序的索引
+```mysql
+# 创建自定义排序的索引
+create index idx_name_age_ad on student (name asc, age desc );
+# 则下面的 SQL 语句不再使用 filesort + index 而是 只使用 index
+explain select id, name, age from student order by name asc, age desc;
+
+show index from student;
+```
+查看新的索引
+![img_35.png](img_35.png)
+
+- 前面所有的语句成立的条件是 覆盖索引 没有 select 不存在没有被索引覆盖的字段
+```mysql
+# using index
+explain select id, name, age from student order by name;
+# using filesort
+explain select id, name, age, sex from student order by name;
+```
+![img_37.png](img_37.png)
+
+
+
+# group by 优化
+```mysql
+# 新增部门字段
+alter table student add department varchar(20);
+# 更改字段的值
+update student set department = 'cs' WHERE id = '1024040901';
+update student set department = 'cs' WHERE id like '102404____';
+
+select * from student;
+# 插入通信学院的学生
+insert into student values ('ZhangSan', 24, '1024010101', '北京', '男', '2024-09-10', 'tel');
+insert into student values ('ZhangWuge', 24, '1024010103', '南京', '男', '2024-09-10', 'tel');
+insert into student values ('LiuXiao', 28, '1022010104', '苏州', '男', '2020-09-10', 'tel');
+insert into student values ('FengCuo', 24, '1024010105', '杭州', '女', '2024-09-10', 'tel');
+insert into student values ('MaJia', 24, '1024010106', '杭州', '男', '2024-09-10', 'tel');
+insert into student values ('LiSu', 24, '1024010508', '南京', '女', '2024-09-10', 'tel');
+
+# 插入电子学院的学生
+insert into student values ('Zhang', 26, '1022020101', '北京', '男', '2022-09-10', 'electronics');
+insert into student values ('MaXi', 24, '1024020102', '苏州', '男', '2024-09-10', 'electronics');
+insert into student values ('JiLi', 26, '1022020102', '上海', '女', '2022-09-10', 'electronics');
+insert into student values ('LiXinGui', 24, '1024020105', '南京', '男', '2024-09-10', 'electronics');
+insert into student values ('WangXiaoxi', 24, '1024020120', '南京', '女', '2024-09-10', 'electronics');
+insert into student values ('XingPao', 24, '1024021028', '杭州', '男', '2024-09-10', 'electronics');
+
+
+
+electronic
+
+```
+![img_38.png](img_38.png)
+
+# limit 分页查询的优化
+```mysql
+# 从第 1000000 条数据的位置 向后面检索 10 条数据 返回   非常耗时
+select * from student limit 1000000, 10;
+```
+- 解决方法 \
+覆盖索引 + 子查询
+```mysql
+# 先查询 id
+select id from student order by id limit 1000000, 10;
+
+# 将上面SQL的返回结果看成一张表
+select s.* from student s, (select id from student order by id limit 10000000, 10) a where s.id = a.id;
+
+
+```
 
 # count
 
