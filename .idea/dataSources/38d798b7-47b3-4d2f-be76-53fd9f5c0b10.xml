@@ -1008,7 +1008,7 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
     <schema id="291" parent="1" name="nnsql">
-      <LastIntrospectionLocalTimestamp>2025-01-07.13:38:26</LastIntrospectionLocalTimestamp>
+      <LastIntrospectionLocalTimestamp>2025-01-14.13:54:25</LastIntrospectionLocalTimestamp>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
     <schema id="292" parent="1" name="performance_schema">
@@ -1021,7 +1021,7 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
     <schema id="295" parent="1" name="student">
-      <LastIntrospectionLocalTimestamp>2025-01-07.13:38:26</LastIntrospectionLocalTimestamp>
+      <LastIntrospectionLocalTimestamp>2025-01-14.13:54:25</LastIntrospectionLocalTimestamp>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
     <schema id="296" parent="1" name="sys">
@@ -1076,268 +1076,303 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </table>
-    <table id="308" parent="295" name="student">
+    <table id="308" parent="295" name="score">
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </table>
-    <table id="309" parent="295" name="student_course">
+    <table id="309" parent="295" name="student">
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </table>
-    <table id="310" parent="295" name="student_logs">
+    <table id="310" parent="295" name="student_course">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_0900_ai_ci</CollationName>
+    </table>
+    <table id="311" parent="295" name="student_logs">
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb3_general_ci</CollationName>
     </table>
-    <view id="311" parent="295" name="v1">
+    <view id="312" parent="295" name="v1">
       <Definer>root@localhost</Definer>
       <SourceTextLength>149</SourceTextLength>
     </view>
-    <view id="312" parent="295" name="vsc">
+    <view id="313" parent="295" name="vsc">
       <Definer>root@localhost</Definer>
       <SourceTextLength>251</SourceTextLength>
     </view>
-    <column id="313" parent="301" name="name">
+    <column id="314" parent="301" name="name">
       <DasType>varchar(10)|0s</DasType>
       <Position>1</Position>
     </column>
-    <column id="314" parent="301" name="money">
+    <column id="315" parent="301" name="money">
       <DasType>int|0s</DasType>
       <Position>2</Position>
     </column>
-    <column id="315" parent="302" name="id">
+    <column id="316" parent="302" name="id">
       <DasType>int|0s</DasType>
       <Position>1</Position>
     </column>
-    <column id="316" parent="302" name="name">
+    <column id="317" parent="302" name="name">
       <DasType>varchar(10)|0s</DasType>
       <Position>2</Position>
     </column>
-    <column id="317" parent="303" name="id">
-      <DasType>int|0s</DasType>
-      <NotNull>1</NotNull>
-      <Position>1</Position>
-    </column>
-    <column id="318" parent="303" name="name">
-      <DasType>varchar(10)|0s</DasType>
-      <Position>2</Position>
-    </column>
-    <column id="319" parent="303" name="gender">
-      <DasType>char(1)|0s</DasType>
-      <Position>3</Position>
-    </column>
-    <index id="320" parent="303" name="PRIMARY">
-      <ColNames>id</ColNames>
-      <Type>btree</Type>
-      <Unique>1</Unique>
-    </index>
-    <key id="321" parent="303" name="PRIMARY">
-      <NameSurrogate>1</NameSurrogate>
-      <Primary>1</Primary>
-      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
-    </key>
-    <column id="322" parent="304" name="id">
+    <column id="318" parent="303" name="id">
       <DasType>int|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="323" parent="304" name="name">
+    <column id="319" parent="303" name="name">
       <DasType>varchar(10)|0s</DasType>
       <Position>2</Position>
     </column>
-    <column id="324" parent="304" name="gender">
+    <column id="320" parent="303" name="gender">
       <DasType>char(1)|0s</DasType>
       <Position>3</Position>
     </column>
-    <index id="325" parent="304" name="PRIMARY">
+    <index id="321" parent="303" name="PRIMARY">
       <ColNames>id</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <index id="326" parent="304" name="id">
-      <ColNames>id</ColNames>
-      <Type>btree</Type>
-      <Unique>1</Unique>
-    </index>
-    <key id="327" parent="304" name="PRIMARY">
+    <key id="322" parent="303" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
-    <key id="328" parent="304" name="id">
+    <column id="323" parent="304" name="id">
+      <DasType>int|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="324" parent="304" name="name">
+      <DasType>varchar(10)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="325" parent="304" name="gender">
+      <DasType>char(1)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <index id="326" parent="304" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="327" parent="304" name="id">
+      <ColNames>id</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="328" parent="304" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <key id="329" parent="304" name="id">
       <UnderlyingIndexName>id</UnderlyingIndexName>
     </key>
-    <column id="329" parent="307" name="id">
+    <column id="330" parent="307" name="id">
       <DasType>varchar(10)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="330" parent="307" name="name">
+    <column id="331" parent="307" name="name">
       <DasType>varchar(20)|0s</DasType>
       <Position>2</Position>
     </column>
-    <index id="331" parent="307" name="PRIMARY">
+    <index id="332" parent="307" name="PRIMARY">
       <ColNames>id</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <key id="332" parent="307" name="PRIMARY">
+    <key id="333" parent="307" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
-    <column id="333" parent="308" name="name">
+    <column id="334" parent="308" name="id">
+      <DasType>int|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="335" parent="308" name="name">
+      <DasType>varchar(10)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="336" parent="308" name="math">
+      <DasType>int|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="337" parent="308" name="english">
+      <DasType>int|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="338" parent="308" name="chinese">
+      <DasType>int|0s</DasType>
+      <Position>5</Position>
+    </column>
+    <index id="339" parent="308" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="340" parent="308" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="341" parent="309" name="name">
       <DasType>char(10)|0s</DasType>
       <Position>1</Position>
     </column>
-    <column id="334" parent="308" name="age">
+    <column id="342" parent="309" name="age">
       <DasType>int|0s</DasType>
       <Position>2</Position>
     </column>
-    <column id="335" parent="308" name="id">
+    <column id="343" parent="309" name="id">
       <DasType>char(10)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>3</Position>
     </column>
-    <column id="336" parent="308" name="address">
+    <column id="344" parent="309" name="address">
       <DasType>char(10)|0s</DasType>
       <Position>4</Position>
     </column>
-    <column id="337" parent="308" name="sex">
+    <column id="345" parent="309" name="sex">
       <DasType>char(1)|0s</DasType>
       <Position>5</Position>
     </column>
-    <column id="338" parent="308" name="entrance">
+    <column id="346" parent="309" name="entrance">
       <DasType>date|0s</DasType>
       <Position>6</Position>
     </column>
-    <column id="339" parent="308" name="department">
+    <column id="347" parent="309" name="department">
       <DasType>varchar(20)|0s</DasType>
       <Position>7</Position>
     </column>
-    <index id="340" parent="308" name="PRIMARY">
+    <index id="348" parent="309" name="PRIMARY">
       <ColNames>id</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <index id="341" parent="308" name="idx_name_age">
+    <index id="349" parent="309" name="idx_name_age">
       <ColNames>name
 age</ColNames>
       <Type>btree</Type>
     </index>
-    <index id="342" parent="308" name="idx_name_age_ad">
+    <index id="350" parent="309" name="idx_name_age_ad">
       <ColNames>name
 age</ColNames>
       <ReverseColNames>age</ReverseColNames>
       <Type>btree</Type>
     </index>
-    <index id="343" parent="308" name="idx">
+    <index id="351" parent="309" name="idx">
       <ColNames>id
 name
 age</ColNames>
       <Type>btree</Type>
     </index>
-    <key id="344" parent="308" name="PRIMARY">
+    <key id="352" parent="309" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
-    <trigger id="345" parent="308" name="tstudent">
+    <trigger id="353" parent="309" name="tstudent">
       <Definer>root@localhost</Definer>
       <Events>I</Events>
       <SourceTextLength>232</SourceTextLength>
       <Turn>after-row</Turn>
     </trigger>
-    <trigger id="346" parent="308" name="triger_update_student">
+    <trigger id="354" parent="309" name="triger_update_student">
       <Definer>root@localhost</Definer>
       <Events>U</Events>
       <SourceTextLength>318</SourceTextLength>
       <Turn>after-row</Turn>
     </trigger>
-    <trigger id="347" parent="308" name="triger_delete_student">
+    <trigger id="355" parent="309" name="triger_delete_student">
       <Definer>root@localhost</Definer>
       <Events>D</Events>
       <SourceTextLength>234</SourceTextLength>
       <Turn>after-row</Turn>
     </trigger>
-    <column id="348" parent="309" name="studentid">
+    <column id="356" parent="310" name="studentid">
       <DasType>char(10)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="349" parent="309" name="courseid">
+    <column id="357" parent="310" name="courseid">
       <DasType>char(5)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <index id="350" parent="309" name="PRIMARY">
+    <index id="358" parent="310" name="PRIMARY">
       <ColNames>studentid
 courseid</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <key id="351" parent="309" name="PRIMARY">
+    <key id="359" parent="310" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
-    <column id="352" parent="310" name="id">
-      <AutoIncrement>1</AutoIncrement>
+    <column id="360" parent="311" name="id">
+      <AutoIncrement>8</AutoIncrement>
       <DasType>int|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="353" parent="310" name="operation">
+    <column id="361" parent="311" name="operation">
       <Comment>操作类型, insert/update/delete</Comment>
       <DasType>varchar(20)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <column id="354" parent="310" name="operate_time">
+    <column id="362" parent="311" name="operate_time">
       <Comment>操作时间</Comment>
       <DasType>datetime|0s</DasType>
       <NotNull>1</NotNull>
       <Position>3</Position>
     </column>
-    <column id="355" parent="310" name="operate_id">
+    <column id="363" parent="311" name="operate_id">
       <Comment>操作的ID</Comment>
       <DasType>int|0s</DasType>
       <NotNull>1</NotNull>
       <Position>4</Position>
     </column>
-    <column id="356" parent="310" name="operate_params">
+    <column id="364" parent="311" name="operate_params">
       <Comment>操作参数</Comment>
       <DasType>varchar(500)|0s</DasType>
       <Position>5</Position>
     </column>
-    <index id="357" parent="310" name="PRIMARY">
+    <index id="365" parent="311" name="PRIMARY">
       <ColNames>id</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <key id="358" parent="310" name="PRIMARY">
+    <key id="366" parent="311" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
-    <column id="359" parent="311" name="id">
+    <column id="367" parent="312" name="id">
       <DasType>char(10)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="360" parent="311" name="name">
+    <column id="368" parent="312" name="name">
       <DasType>char(10)|0s</DasType>
       <Position>2</Position>
     </column>
-    <column id="361" parent="312" name="sname">
+    <column id="369" parent="313" name="sname">
       <DasType>char(10)|0s</DasType>
       <Position>1</Position>
     </column>
-    <column id="362" parent="312" name="sid">
+    <column id="370" parent="313" name="sid">
       <DasType>char(10)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <column id="363" parent="312" name="cname">
+    <column id="371" parent="313" name="cname">
       <DasType>varchar(20)|0s</DasType>
       <Position>3</Position>
     </column>
